@@ -118,4 +118,4 @@ The tools helps stay under budget by uncovering hidden costs, monitoring increas
 and making impactful changes based on custom recommendations.
 **It can show the service limits in it's webportal.
 
-github.com/mlabouardy
+https://github.com/mlabouardy/komiser
