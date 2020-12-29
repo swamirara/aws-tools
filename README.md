@@ -9,7 +9,9 @@ Org-formation is a CLI tool that lets you manage your entire AWS organization us
 It sports an AWS CloudFormation-like syntax and has more than 50 features, including:
 
 Create new AWS accounts in code.
+
 Create AWS organizational units (OU) and adding accounts to them.
+
 Define Service Control Policies (SCPs), configure cross-account AWS CloudTrail collection, etc.
 If you have an existing AWS Organization, you can run org-formation init to pull them into a template so you can start managing them with org-formation going forward.
 You can use org-formation update-stacks to apply CloudFormation templates to multiple accounts and regions.
