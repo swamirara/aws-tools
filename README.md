@@ -73,17 +73,29 @@ CloudTracker helps you find over-privileged IAM users and roles by comparing Clo
 
 https://github.com/duo-labs/cloudtracker
 
-*******aws-auto-cleanup:******
-
-Open-source application to programmatically delete AWS resources based on a whitelist and time to live (TTL) settings
-
-https://github.com/servian/aws-auto-cleanup
 
 RepoKid
 
 https://github.com/Netflix/repokid 
 Repokid uses Access Advisor provided by Aardvark to remove permissions granting access to unused services 
 from the inline policies of IAM roles in an AWS account.
+
+*******aws-auto-cleanup:******
+
+Open-source application to programmatically delete AWS resources based on a whitelist and time to live (TTL) settings
+
+https://github.com/servian/aws-auto-cleanup
+
+*******cloud-nuke:****** 
+
+A tool for cleaning up your cloud accounts by nuking (deleting) all resources within it.
+
+cloud-nuke was created for situations when you might have an account you use for testing and need to clean up 
+leftover resources so you're not charged for them. Also great for cleaning out accounts with redundant resources. 
+Also great for removing unnecessary defaults like default VPCs and permissive ingress/egress rules in default security groups.
+
+https://github.com/gruntwork-io/cloud-nuke
+
 
 *******PacBot:******
 
@@ -100,15 +112,6 @@ This is effective at finding secrets (such as AWS Secret Keys) accidentally comm
 
 https://github.com/dxa4481/truffleHog
 
-*******cloud-nuke:****** 
-
-A tool for cleaning up your cloud accounts by nuking (deleting) all resources within it.
-
-cloud-nuke was created for situations when you might have an account you use for testing and need to clean up 
-leftover resources so you're not charged for them. Also great for cleaning out accounts with redundant resources. 
-Also great for removing unnecessary defaults like default VPCs and permissive ingress/egress rules in default security groups.
-
-https://github.com/gruntwork-io/cloud-nuke
 
 *******Komiser:******
 
